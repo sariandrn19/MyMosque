@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#cd853f</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorHint">#cdc9c9</color>
+    <color name="colorText">#fffafa</color>
+    <color name="primary_color">#fffafa</color>
+    <!-- Background color for the colors category -->
+    <color name="category_terbaik">#cd853f</color>
+
+    <!-- Background color for the numbers category -->
+    <color name="category_unik">#cd853f</color>
+
+</resources>

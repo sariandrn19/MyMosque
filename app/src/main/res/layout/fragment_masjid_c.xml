@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mymosque.MasjidC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/category_terbaik">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/masjidc" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/colorText"
+            android:text="Masjid Menara Kudus"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorText"
+           android:text="\nPada tahun 1549 salah seorang wali songo yaitu Sunan Kudus, membangun sebuah masjid lengkap dengan menaranya yang khas di Kudus. Masjid ini dijadikan sebagai tempat ibadah warga Kudus kala itu, juga sebagai tempat Sunan Kudus berdakwah dan mengajarkan ilmu agama kepada warga.\n\nAgar dakwah islam Sunan Kudus kala itu bisa lebih mudah diterima oleh para warga Kudus yang mayoritas beragama Hindu-Budha, maka masjid ini pun dibangun dengan arsitektur mirip bangunan khas Hindu-Budha, sehingga warga tak terlalu kaget dan mampu menerima ajaran Islam dengan lebih mudah. Batu pertama pembangunan masjid ini langsung didatangkan dari Baitul Maqdis, Palestina. Dan masjid serta menara ini dibangun tanpa menggunakan semen."/>
+    </LinearLayout>
+</FrameLayout>
+

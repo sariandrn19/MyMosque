@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mymosque.MasjidA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/category_terbaik">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/masjida" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/colorText"
+            android:text="Masjid Raya Baiturrahman Aceh"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="@color/colorText"
+            android:gravity="center_horizontal"
+            android:text="\nMasjid ini dibangun oleh Sultan Iskandar Muda pada tahun 1612. Kemegahan masjid ini sudah sangat mendunia. Arsitekturnya yang sangat kental khas Aceh membuat masjid ini menjadi icon bagi Aceh. \n\nMasjid megah ini juga menyimpan kisah menakjubkan pada tahun 2004 lalu, yaitu saat Tsunami dahsyat meluluh-lantakkan Aceh. Bangunan-bangunan hancur tak berbentuk, namun masjid Baiturrahman tetap berdiri dengan kokoh dan anggun, bahkan dijadikan tempat perlindungan bagi para warga yang berhasil menghindarkan diri dari arus tsunami yang begitu dahsyat kala itu." /> />
+
+    </LinearLayout>
+
+</FrameLayout>

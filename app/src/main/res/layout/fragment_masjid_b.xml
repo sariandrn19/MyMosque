@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mymosque.MasjidB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/category_terbaik">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/masjidb"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/colorText"
+            android:text="Masjid Istiqlal Jakarta
+"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="@color/colorText"
+            android:gravity="center_horizontal"
+            android:text="\nMasjid yang kerap disorot dan dijadikan icon untuk berbagai acara keagamaan Islam, mulai shalat tarawih sampai shalat Idul Fitri yang disiarkan langsung dari masjid ini. Ya, masjid Istiqlal di Jakarta ini memang memiliki nilai historis sangat kental bagi rakyat Indonesia dan ummat muslim Indonesia tentunya.\n\nSehingga membuat setiap orang yang mengunjungi Jakarta terasa tak lengkap tanpa mampir ke masjid ini. Masjid yang merupakan masjid terbesar se-Asia Tenggara ini dibangun pada tahun 1961 dan selesai pada tahun 1978, dengan pemrakarsanya adalah Presiden pertama RI, Ir. Soekarno. Istiqlal sendiri adalah bahasa Arab yang artinya Kemerdekaan."/>
+    </LinearLayout>
+
+</FrameLayout>
